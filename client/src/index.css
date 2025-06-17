@@ -1,0 +1,6 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+
+.neon-glow { text-shadow: 0 0 8px #0ff, 0 0 16px #f0f; }
+.neon-button { @apply text-white; box-shadow: 0 0 10px #f0f; }
+.glitch-card { animation: glitch 1s infinite; }
+@keyframes glitch { 0% { transform: translateX(0); } 20% { transform: translateX(2px); } 40% { transform: translateX(-2px); } 60% { transform: translateX(2px);} 80%{transform:translateX(0);} }
